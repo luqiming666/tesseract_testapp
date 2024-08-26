@@ -4,7 +4,6 @@
 #include "baseapi.h" 
 #include "allheaders.h"
 #include <iostream>
-#include <string>
 #include <windows.h>
 
 //#define _TEST_CHINESE_
@@ -16,6 +15,9 @@ const char szSourceFile[] = "chinese.bmp";
 const char szLang[] = "eng";
 const char szSourceFile[] = "numbers.bmp";
 #endif
+
+// tesseract command-line usage:
+// https://tesseract-ocr.github.io/tessdoc/Command-Line-Usage.html
 
 int main()
 {  
